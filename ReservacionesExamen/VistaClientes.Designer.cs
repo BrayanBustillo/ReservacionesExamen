@@ -57,7 +57,7 @@
             this.DGVDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVDatos.Location = new System.Drawing.Point(36, 198);
             this.DGVDatos.Name = "DGVDatos";
-            this.DGVDatos.Size = new System.Drawing.Size(558, 150);
+            this.DGVDatos.Size = new System.Drawing.Size(547, 150);
             this.DGVDatos.TabIndex = 0;
             this.DGVDatos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVDatos_CellDoubleClick);
             // 
@@ -88,7 +88,7 @@
             // 
             // dtpFechaIngreso
             // 
-            this.dtpFechaIngreso.Location = new System.Drawing.Point(329, 38);
+            this.dtpFechaIngreso.Location = new System.Drawing.Point(323, 38);
             this.dtpFechaIngreso.Name = "dtpFechaIngreso";
             this.dtpFechaIngreso.Size = new System.Drawing.Size(200, 20);
             this.dtpFechaIngreso.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             this.chkEstado.AutoSize = true;
             this.chkEstado.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkEstado.Location = new System.Drawing.Point(453, 65);
+            this.chkEstado.Location = new System.Drawing.Point(447, 65);
             this.chkEstado.Name = "chkEstado";
             this.chkEstado.Size = new System.Drawing.Size(76, 31);
             this.chkEstado.TabIndex = 5;
@@ -137,7 +137,7 @@
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.Lime;
-            this.btnAgregar.Location = new System.Drawing.Point(519, 158);
+            this.btnAgregar.Location = new System.Drawing.Point(508, 158);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 34);
             this.btnAgregar.TabIndex = 9;
@@ -148,7 +148,7 @@
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Red;
-            this.btnEliminar.Location = new System.Drawing.Point(438, 158);
+            this.btnEliminar.Location = new System.Drawing.Point(427, 158);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 34);
             this.btnEliminar.TabIndex = 10;
@@ -159,6 +159,7 @@
             // rbTodos
             // 
             this.rbTodos.AutoSize = true;
+            this.rbTodos.Checked = true;
             this.rbTodos.Location = new System.Drawing.Point(36, 175);
             this.rbTodos.Name = "rbTodos";
             this.rbTodos.Size = new System.Drawing.Size(55, 17);
@@ -196,7 +197,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(324, 8);
+            this.label4.Location = new System.Drawing.Point(318, 8);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(120, 27);
             this.label4.TabIndex = 14;
@@ -220,7 +221,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(36, 51);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(558, 100);
+            this.panel1.Size = new System.Drawing.Size(547, 100);
             this.panel1.TabIndex = 15;
             // 
             // label5
@@ -239,7 +240,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(638, 375);
+            this.ClientSize = new System.Drawing.Size(622, 375);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.rbInactivos);
