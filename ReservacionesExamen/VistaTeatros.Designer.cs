@@ -77,6 +77,7 @@
             // rbTodos
             // 
             this.rbTodos.AutoSize = true;
+            this.rbTodos.Checked = true;
             this.rbTodos.Location = new System.Drawing.Point(34, 151);
             this.rbTodos.Name = "rbTodos";
             this.rbTodos.Size = new System.Drawing.Size(55, 17);
